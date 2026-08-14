@@ -13,6 +13,7 @@ public class factorial{
     public static void main(String[] args){
         int number = 5; // Example input
         long factorial = compute(number);
+        System.out.println("post change");
         System.out.println("Factorial of " + number + " is: " + factorial);
     }
     
